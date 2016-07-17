@@ -17,7 +17,8 @@ module.exports = function (grunt) {
         tasks: ['uglify']
       },
       imagemin: {
-        files: ['master/drawable/*.{png,jpg,gif,svg}'],
+//        files: ['master/drawable/*.{png,jpg,gif,svg}'],
+        files: ['master/drawable/*.svg','master/drawable/*.jpg','master/drawable/*.png','master/drawable/*.gif','master/drawable/**/*.svg','master/drawable/**/*.jpg','master/drawable/**/*.png','master/drawable/**/*.gif'],
         tasks: ['imagemin'],
         options: {
           spawn: false,
@@ -114,7 +115,7 @@ module.exports = function (grunt) {
           files: [{
             expand: true,
             cwd: 'master/drawable/', //todas las imágenes de esta ruta
-            src: ['**/*.{png,jpg,gif,.svg}'], //patrón de tipos de imagen
+            src: ['**/*.{png,jpg,gif,svg}'], //patrón de tipos de imagen
             dest: 'app/drawable/' //carpeta destino una vez optimizadas
           }]
         }
