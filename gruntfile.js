@@ -9,7 +9,7 @@ module.exports = function (grunt) {
         tasks: ['sass']
       },
       cssmin: {
-        files: ["master/styles/app/*.css","master/styles/draweb/*.css"],
+        files: ["master/css/app/*.css","master/css/draweb/*.css"],
         tasks: ['cssmin']
       },
       uglify: {
@@ -31,7 +31,7 @@ module.exports = function (grunt) {
       
     // Sass task config
     sass: {
-        dev: {
+        dist: {
             files: {
                 // fichero destino  // fichero .scss
                 "master/css/app/app-h.css" : ["master/scss/app/*.scss"],
@@ -90,8 +90,8 @@ module.exports = function (grunt) {
       },
       target: {
         files: {//Fichero combinado   //Ficheros que vamos a combinar, 2 .css
-                'app/app.css': ['master/styles/app/*.css'],
-                 'app/draweb.css': ['master/styles/draweb/*.css']
+                'app/app.css': ['master/css/app/*.css'],
+                 'app/draweb.css': ['master/css/draweb/*.css']
         }
       }
     },
