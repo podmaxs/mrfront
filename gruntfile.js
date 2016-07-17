@@ -13,7 +13,7 @@ module.exports = function (grunt) {
         tasks: ['cssmin']
       },
       uglify: {
-        files: ["master/app/modules/**/*.js", "master/app/manifest.js","master/draweb/modules/**/*.js", "master/draweb/config.js","vendor/src/*.json"],
+        files: ["master/app/modules/**/*.js", "master/app/manifest.js","master/draweb/modules/**/*.js", "master/draweb/manifest.js", "master/draweb/modules/**/*.js","vendor/src/*.json"],
         tasks: ['uglify']
       },
       imagemin: {
@@ -103,7 +103,7 @@ module.exports = function (grunt) {
         dest: 'app/app.js'//Ruta del fichero minificado
       },
       build2: {
-        files:{ 'app/draweb.js':['master/src/*.js','master/draweb/config.js','master/draweb/modules/**/*module.js','master/draweb/modules/**/*config.js','master/draweb/modules/**/*directive.js','master/draweb/modules/**/*service.js','master/draweb/modules/**/*factory.js','master/draweb/modules/**/*provider.js','master/draweb/modules/**/*filter.js','master/draweb/modules/**/*run.js','master/draweb/modules/**/*controller.js']}//Ruta de fichero de entrada
+        files:{ 'app/draweb.js':['master/libs/*.js','master/draweb/manifest.js','master/draweb/modules/**/*module.js','master/draweb/modules/**/*config.js','master/draweb/modules/**/*directive.js','master/draweb/modules/**/*service.js','master/draweb/modules/**/*factory.js','master/draweb/modules/**/*provider.js','master/draweb/modules/**/*filter.js','master/draweb/modules/**/*run.js','master/draweb/modules/**/*controller.js']}//Ruta de fichero de entrada
       }
     
     },
