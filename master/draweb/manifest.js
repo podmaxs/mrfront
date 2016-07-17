@@ -2,6 +2,9 @@
 
 'use strict';
 
-angular.module('draweb',[]);
+angular.module('draweb',[
+	'ui.materialize',
+	'ui.router'
+	]);
 
 })(); 

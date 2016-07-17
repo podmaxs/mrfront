@@ -2,6 +2,9 @@
 
 'use strict';
 
-angular.module('app.mrfront',['draweb']);
+angular.module('app.mrfront',[
+	'draweb',
+	'app.routes'
+	]);
 
 })();

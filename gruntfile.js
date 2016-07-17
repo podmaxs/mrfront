@@ -35,7 +35,8 @@ module.exports = function (grunt) {
         dist: {
             files: {
                 // fichero destino  // fichero .scss
-                "master/css/app/app-h.css" : ["master/scss/app/*.scss"],
+                "master/css/app/0-app-h.css" : ["master/scss/app/*.scss"],
+                "master/css/app/app-theme.css" : ["master/scss/theme/*.scss"],
                 "master/css/draweb/app-h.css" : ["master/scss/draweb/*.scss"],
             }
         }
@@ -115,7 +116,7 @@ module.exports = function (grunt) {
           files: [{
             expand: true,
             cwd: 'master/drawable/', //todas las imágenes de esta ruta
-            src: ['**/*.{png,jpg,gif,svg}'], //patrón de tipos de imagen
+            src: ['**/*.{png,jpg,gif,.svg}'], //patrón de tipos de imagen
             dest: 'app/drawable/' //carpeta destino una vez optimizadas
           }]
         }

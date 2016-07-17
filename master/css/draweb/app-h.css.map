@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,IAAI;EACH,OAAO,EAAC,GAAG",
-"sources": ["../../scss/draweb/test2.scss"],
+"mappings": "AACC,yBAAwB;EACvB,OAAO,EAAC,KAAK;EACb,QAAQ,EAAC,KAAK;EACd,KAAK,EAAE,IAAI;EACX,MAAM,EAAC,IAAI;EACX,GAAG,EAAC,GAAG;EACP,IAAI,EAAE,GAAG;EACT,QAAQ,EAAC,MAAM;EACf,MAAM,EAAC,GAAG;EACV,OAAO,EAAC,GAAG;;AAGZ,WAAW;EACV,OAAO,EAAC,IAAI;EACZ,UAAU,EAAC,IAAI",
+"sources": ["../../scss/draweb/appActivity.commponent.scss"],
 "names": [],
 "file": "app-h.css"
 }
