@@ -13,7 +13,7 @@ module.exports = function (grunt) {
         tasks: ['cssmin']
       },
       uglify: {
-        files: ["master/modules/**/*.js", "master/manifest.js","master/draweb/modules/**/*.js", "master/draweb/config.js","vendor/src/*.json"],
+        files: ["master/app/modules/**/*.js", "master/app/manifest.js","master/draweb/modules/**/*.js", "master/draweb/config.js","vendor/src/*.json"],
         tasks: ['uglify']
       },
       imagemin: {
@@ -98,7 +98,7 @@ module.exports = function (grunt) {
     //Uglify task config  
     uglify: {
       build: {
-        src: [ 'master/manifest.js','master/modules/**/*module.js','master/modules/**/*config.js','master/modules/**/*directive.js','master/modules/**/*service.js','master/modules/**/*factory.js','master/modules/**/*provider.js','master/modules/**/*filter.js','master/modules/**/*run.js','master/modules/**/*controller.js'],//Ruta de fichero de entrada
+        src: [ 'master/app/manifest.js','master/app/modules/**/*module.js','master/app/modules/**/*config.js','master/app/modules/**/*directive.js','master/app/modules/**/*service.js','master/app/modules/**/*factory.js','master/app/modules/**/*provider.js','master/app/modules/**/*filter.js','master/app/modules/**/*run.js','master/app/modules/**/*controller.js'],//Ruta de fichero de entrada
         dest: 'app/app.js'//Ruta del fichero minificado
       },
       build2: {
