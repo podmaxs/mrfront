@@ -4,7 +4,7 @@ WebSeed with materialize.css and angular
 		npm install
 
 
-<h3>Usage</h3>
+<h3>Basic usage</h3>
 
 	1- Create folder in 'master/app/modules/{myNewModule}'
 	2- Defined my module in 'master/app/modules/{myNewModule}/{myNewModule}.module.js'
