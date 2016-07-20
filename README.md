@@ -21,6 +21,13 @@ WebSeed with materialize.css and angular
 
 		})();
 
+<h3>Create new View</h3>
+	
+	1- Create folder in 'master/views/{myNewModuleViews}'.
+	2- Create new 'view.jade' in 'master/views/{myNewModuleViews}/{myNewView}.jade'
+
+
+
 <h3>Config new routes</h3>
 	
 	Open 'master/app/modules/routes/routes.config.js'.
