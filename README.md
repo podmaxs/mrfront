@@ -1,6 +1,6 @@
 # mrfront
 WebSeed with materialize.css and angular
-<h3>Instalation</h3>
+<h3>Installation</h3>
 		npm install
 
 
