@@ -5,7 +5,8 @@ WebSeed with materialize.css and angular
 
 
 <h3>Basic usage</h3>
-
+	
+	0- Run in console 'grunt'
 	1- Create folder in 'master/app/modules/{myNewModule}'
 	2- Defined my module in 'master/app/modules/{myNewModule}/{myNewModule}.module.js'
 	3- Defined my Constroller/Directive/Provider in 'master/app/modules/{myNewModule}/{myNewModule}.{ControllerName}.controller.js'
