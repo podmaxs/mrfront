@@ -20,3 +20,37 @@ WebSeed with materialize.css and angular
 			]);
 
 		})();
+
+<h3>Config new routes</h3>
+	
+	Open 'master/app/modules/routes/routes.config.js'.
+	
+	(function(){
+
+		'use strict';
+
+		angular.module('app.routes')
+		.config(['$stateProvider','$urlRouterProvider',function($stateProvider,$urlRouterProvider) {
+			// '/app/welcome' is default route
+			$urlRouterProvider.otherwise("/app/welcome");
+			$urlRouterProvider.when("", "/app/welcome");
+			$urlRouterProvider.when("/", "/app/welcome");
+
+			$stateProvider
+    			.state('app', {
+    				url: "/app",
+    				abstract: true,
+    				templateUrl: "app/views/partial/mainNavigation.html"
+			})
+    			.state('app.welcome', {
+    				url: "/welcome",
+    				templateUrl: "app/views/sections/welcome/main.html"
+			 })
+    			.state('app.{myNewModule}', {
+    				url: "/{myNewUrlModule}",
+    				templateUrl: "app/views/sections/{myNewModuleView}/main.html"
+			 })
+	
+		}]);
+
+	})();
