@@ -4,7 +4,8 @@
 
 angular.module('draweb',[
 	'ui.materialize',
-	'ui.router'
+	'ui.router',
+	'dwNavigation'
 	]);
 
 })(); 

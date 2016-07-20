@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/funnyfrontend/tutoriales-css3.git"
+    "url": "git+https://github.com/podmaxs/mrfront.git"
   },
   "author": "podmaxs",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/funnyfrontend/tutoriales-css3/issues"
+    "url": "https://github.com/podmaxs/mrfront.git"
   },
-  "homepage": "https://github.com/funnyfrontend/tutoriales-css3#readme",
+  "homepage": "https://github.com/podmaxs/mrfront.git#readme",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-browser-sync": "^2.1.3",
