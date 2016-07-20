@@ -23,8 +23,8 @@ WebSeed with materialize.css and angular
 
 <h3>Create new View</h3>
 	
-	1- Create folder in 'master/views/{myNewModuleViews}'.
-	2- Create new 'view.jade' in 'master/views/{myNewModuleViews}/{myNewView}.jade'
+	1- Create folder in 'master/views/sections/{myNewModuleViews}'.
+	2- Create new 'view.jade' in 'master/views/sections/{myNewModuleViews}/{myNewView}.jade'
 
 
 
