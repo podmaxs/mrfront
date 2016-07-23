@@ -7,5 +7,4 @@
 		'ui.router',
 		'dwNavigation'
 		]);
-
 })(); 
