@@ -14,7 +14,7 @@
 				// controller: function($scope, $element, $attrs, $transclude) {},
 				// require: 'ngModel', // Array = multiple requires, ? = optional, ^ = check parent elements
 				// restrict: 'A', // E = Element, A = Attribute, C = Class, M = Comment
-				template: '<preload></preload><div ui-view></div>',
+				template: '<preload class="active"></preload><div ui-view></div>',
 				// templateUrl: '',
 				// replace: true,
 				// transclude: true,

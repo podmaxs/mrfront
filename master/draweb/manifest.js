@@ -1,11 +1,11 @@
 (function(){
 
-'use strict';
+	'use strict';
 
-angular.module('draweb',[
-	'ui.materialize',
-	'ui.router',
-	'dwNavigation'
-	]);
+	angular.module('draweb',[
+		'ui.materialize',
+		'ui.router',
+		'dwNavigation'
+		]);
 
 })(); 
