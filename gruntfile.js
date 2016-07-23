@@ -36,7 +36,7 @@ module.exports = function (grunt) {
             files: {
                 // fichero destino  // fichero .scss
                 "master/css/app/01-app-h.css" : ["master/scss/app/*.scss"],
-                "master/css/app/00-app-theme.css" : ["master/scss/theme/sass/*.scss"],
+                "master/css/app/00-app-theme.css" : ["master/scss/theme/*.scss"],
                 "master/css/draweb/app-h.css" : ["master/scss/draweb/*.scss"],
             }
         }
