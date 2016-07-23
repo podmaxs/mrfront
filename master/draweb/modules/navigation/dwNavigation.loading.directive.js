@@ -14,7 +14,7 @@
 			// require: 'ngModel', // Array = multiple requires, ? = optional, ^ = check parent elements
 			// restrict: 'A', // E = Element, A = Attribute, C = Class, M = Comment
 			// template: '',
-			templateUrl: 'app/views/partial/loading.html',
+			templateUrl: 'app/views/draweb/components/loading/loading.html',
 			// replace: true,
 			// transclude: true,
 			// compile: function(tElement, tAttrs, function transclude(function(scope, cloneLinkingFn){ return function linking(scope, elm, attrs){}})),
