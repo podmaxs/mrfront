@@ -3,7 +3,7 @@
 	'use strict';
 
 	angular.module('dwNavigation')
-	.directive('preload', [function(){
+	.directive('preload', ['$compile','$templateRequest',function($compile,$templateRequest){
 		// Runs during compile
 		return {
 			// name: '',
@@ -14,7 +14,7 @@
 			// require: 'ngModel', // Array = multiple requires, ? = optional, ^ = check parent elements
 			// restrict: 'A', // E = Element, A = Attribute, C = Class, M = Comment
 			// template: '',
-			templateUrl: 'app/views/draweb/components/preload/preload.html',
+			//templateUrl: ,
 			// replace: true,
 			// transclude: true,
 			// compile: function(tElement, tAttrs, function transclude(function(scope, cloneLinkingFn){ return function linking(scope, elm, attrs){}})),
@@ -22,6 +22,12 @@
 				$scope.active=true;
 				iElm.addClass('active');
 				var el=iElm;
+				$templateRequest($scope.app.preloadTamplate).then(function(html){
+					var template = angular.element(html);
+					el.append(template);
+					$compile(template)($scope);
+				});
+
 				angular.element(document).ready(function(){
 					setTimeout(function(){
 						$scope.$apply(function(){
