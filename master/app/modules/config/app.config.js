@@ -6,8 +6,10 @@
 	.run(['$rootScope',function($rootScope) {
 		$rootScope.app={
 			'title':'Mr. Front',
-			'appName':'Mr. Front',
-			'description':'App for example of Mr. Front, by draweb.com.ar',
+			'name':'Mr. Front',
+			'company':'draweb',
+			'website':'http://draweb.com.ar',
+			'description':'This is a compiler based on Materialize.css and Grunt, in order to create Apps with stylish designs.',
 			'author':'podmaxs',
 			'contact':'podmaxs@gmail.com',
 			'copyright':'Copyright (c) 2007-2019 Maximiliano Piccinini Todos los derechos reservados.',
