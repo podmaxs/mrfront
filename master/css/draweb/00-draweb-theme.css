@@ -3731,14 +3731,6 @@ button.btn-floating {
       height: inherit;
       line-height: inherit; }
 
-/*!
- * Waves v0.6.0
- * http://fian.my.id/Waves
- *
- * Copyright 2014 Alfiana E. Sibuea and other contributors
- * Released under the MIT license
- * https://github.com/fians/Waves/blob/master/LICENSE
- */
 .waves-effect {
   position: relative;
   cursor: pointer;
@@ -5138,6 +5130,1086 @@ input[type=range]:focus::-ms-fill-upper {
 .spinner-white-only {
   border-color: #fff; }
 
+.spinner-black,
+.spinner-black-only {
+  border-color: #000000; }
+
+.spinner-white,
+.spinner-white-only {
+  border-color: #FFFFFF; }
+
+.spinner-transparent,
+.spinner-transparent-only {
+  border-color: transparent; }
+
+.spinner-materialize-red,
+.spinner-materialize-red-only {
+  border-color: #e51c23; }
+
+.spinner-materialize-red-lighten-5,
+.spinner-materialize-red-lighten-5-only {
+  border-color: #fdeaeb; }
+
+.spinner-materialize-red-lighten-4,
+.spinner-materialize-red-lighten-4-only {
+  border-color: #f8c1c3; }
+
+.spinner-materialize-red-lighten-3,
+.spinner-materialize-red-lighten-3-only {
+  border-color: #f3989b; }
+
+.spinner-materialize-red-lighten-2,
+.spinner-materialize-red-lighten-2-only {
+  border-color: #ee6e73; }
+
+.spinner-materialize-red-lighten-1,
+.spinner-materialize-red-lighten-1-only {
+  border-color: #ea454b; }
+
+.spinner-materialize-red-darken-1,
+.spinner-materialize-red-darken-1-only {
+  border-color: #d0181e; }
+
+.spinner-materialize-red-darken-2,
+.spinner-materialize-red-darken-2-only {
+  border-color: #b9151b; }
+
+.spinner-materialize-red-darken-3,
+.spinner-materialize-red-darken-3-only {
+  border-color: #a21318; }
+
+.spinner-materialize-red-darken-4,
+.spinner-materialize-red-darken-4-only {
+  border-color: #8b1014; }
+
+.spinner-red,
+.spinner-red-only {
+  border-color: #F44336; }
+
+.spinner-red-lighten-5,
+.spinner-red-lighten-5-only {
+  border-color: #FFEBEE; }
+
+.spinner-red-lighten-4,
+.spinner-red-lighten-4-only {
+  border-color: #FFCDD2; }
+
+.spinner-red-lighten-3,
+.spinner-red-lighten-3-only {
+  border-color: #EF9A9A; }
+
+.spinner-red-lighten-2,
+.spinner-red-lighten-2-only {
+  border-color: #E57373; }
+
+.spinner-red-lighten-1,
+.spinner-red-lighten-1-only {
+  border-color: #EF5350; }
+
+.spinner-red-darken-1,
+.spinner-red-darken-1-only {
+  border-color: #E53935; }
+
+.spinner-red-darken-2,
+.spinner-red-darken-2-only {
+  border-color: #D32F2F; }
+
+.spinner-red-darken-3,
+.spinner-red-darken-3-only {
+  border-color: #C62828; }
+
+.spinner-red-darken-4,
+.spinner-red-darken-4-only {
+  border-color: #B71C1C; }
+
+.spinner-red-accent-1,
+.spinner-red-accent-1-only {
+  border-color: #FF8A80; }
+
+.spinner-red-accent-2,
+.spinner-red-accent-2-only {
+  border-color: #FF5252; }
+
+.spinner-red-accent-3,
+.spinner-red-accent-3-only {
+  border-color: #FF1744; }
+
+.spinner-red-accent-4,
+.spinner-red-accent-4-only {
+  border-color: #D50000; }
+
+.spinner-pink,
+.spinner-pink-only {
+  border-color: #e91e63; }
+
+.spinner-pink-lighten-5,
+.spinner-pink-lighten-5-only {
+  border-color: #fce4ec; }
+
+.spinner-pink-lighten-4,
+.spinner-pink-lighten-4-only {
+  border-color: #f8bbd0; }
+
+.spinner-pink-lighten-3,
+.spinner-pink-lighten-3-only {
+  border-color: #f48fb1; }
+
+.spinner-pink-lighten-2,
+.spinner-pink-lighten-2-only {
+  border-color: #f06292; }
+
+.spinner-pink-lighten-1,
+.spinner-pink-lighten-1-only {
+  border-color: #ec407a; }
+
+.spinner-pink-darken-1,
+.spinner-pink-darken-1-only {
+  border-color: #d81b60; }
+
+.spinner-pink-darken-2,
+.spinner-pink-darken-2-only {
+  border-color: #c2185b; }
+
+.spinner-pink-darken-3,
+.spinner-pink-darken-3-only {
+  border-color: #ad1457; }
+
+.spinner-pink-darken-4,
+.spinner-pink-darken-4-only {
+  border-color: #880e4f; }
+
+.spinner-pink-accent-1,
+.spinner-pink-accent-1-only {
+  border-color: #ff80ab; }
+
+.spinner-pink-accent-2,
+.spinner-pink-accent-2-only {
+  border-color: #ff4081; }
+
+.spinner-pink-accent-3,
+.spinner-pink-accent-3-only {
+  border-color: #f50057; }
+
+.spinner-pink-accent-4,
+.spinner-pink-accent-4-only {
+  border-color: #c51162; }
+
+.spinner-purple,
+.spinner-purple-only {
+  border-color: #9c27b0; }
+
+.spinner-purple-lighten-5,
+.spinner-purple-lighten-5-only {
+  border-color: #f3e5f5; }
+
+.spinner-purple-lighten-4,
+.spinner-purple-lighten-4-only {
+  border-color: #e1bee7; }
+
+.spinner-purple-lighten-3,
+.spinner-purple-lighten-3-only {
+  border-color: #ce93d8; }
+
+.spinner-purple-lighten-2,
+.spinner-purple-lighten-2-only {
+  border-color: #ba68c8; }
+
+.spinner-purple-lighten-1,
+.spinner-purple-lighten-1-only {
+  border-color: #ab47bc; }
+
+.spinner-purple-darken-1,
+.spinner-purple-darken-1-only {
+  border-color: #8e24aa; }
+
+.spinner-purple-darken-2,
+.spinner-purple-darken-2-only {
+  border-color: #7b1fa2; }
+
+.spinner-purple-darken-3,
+.spinner-purple-darken-3-only {
+  border-color: #6a1b9a; }
+
+.spinner-purple-darken-4,
+.spinner-purple-darken-4-only {
+  border-color: #4a148c; }
+
+.spinner-purple-accent-1,
+.spinner-purple-accent-1-only {
+  border-color: #ea80fc; }
+
+.spinner-purple-accent-2,
+.spinner-purple-accent-2-only {
+  border-color: #e040fb; }
+
+.spinner-purple-accent-3,
+.spinner-purple-accent-3-only {
+  border-color: #d500f9; }
+
+.spinner-purple-accent-4,
+.spinner-purple-accent-4-only {
+  border-color: #aa00ff; }
+
+.spinner-deep-purple,
+.spinner-deep-purple-only {
+  border-color: #673ab7; }
+
+.spinner-deep-purple-lighten-5,
+.spinner-deep-purple-lighten-5-only {
+  border-color: #ede7f6; }
+
+.spinner-deep-purple-lighten-4,
+.spinner-deep-purple-lighten-4-only {
+  border-color: #d1c4e9; }
+
+.spinner-deep-purple-lighten-3,
+.spinner-deep-purple-lighten-3-only {
+  border-color: #b39ddb; }
+
+.spinner-deep-purple-lighten-2,
+.spinner-deep-purple-lighten-2-only {
+  border-color: #9575cd; }
+
+.spinner-deep-purple-lighten-1,
+.spinner-deep-purple-lighten-1-only {
+  border-color: #7e57c2; }
+
+.spinner-deep-purple-darken-1,
+.spinner-deep-purple-darken-1-only {
+  border-color: #5e35b1; }
+
+.spinner-deep-purple-darken-2,
+.spinner-deep-purple-darken-2-only {
+  border-color: #512da8; }
+
+.spinner-deep-purple-darken-3,
+.spinner-deep-purple-darken-3-only {
+  border-color: #4527a0; }
+
+.spinner-deep-purple-darken-4,
+.spinner-deep-purple-darken-4-only {
+  border-color: #311b92; }
+
+.spinner-deep-purple-accent-1,
+.spinner-deep-purple-accent-1-only {
+  border-color: #b388ff; }
+
+.spinner-deep-purple-accent-2,
+.spinner-deep-purple-accent-2-only {
+  border-color: #7c4dff; }
+
+.spinner-deep-purple-accent-3,
+.spinner-deep-purple-accent-3-only {
+  border-color: #651fff; }
+
+.spinner-deep-purple-accent-4,
+.spinner-deep-purple-accent-4-only {
+  border-color: #6200ea; }
+
+.spinner-indigo,
+.spinner-indigo-only {
+  border-color: #3f51b5; }
+
+.spinner-indigo-lighten-5,
+.spinner-indigo-lighten-5-only {
+  border-color: #e8eaf6; }
+
+.spinner-indigo-lighten-4,
+.spinner-indigo-lighten-4-only {
+  border-color: #c5cae9; }
+
+.spinner-indigo-lighten-3,
+.spinner-indigo-lighten-3-only {
+  border-color: #9fa8da; }
+
+.spinner-indigo-lighten-2,
+.spinner-indigo-lighten-2-only {
+  border-color: #7986cb; }
+
+.spinner-indigo-lighten-1,
+.spinner-indigo-lighten-1-only {
+  border-color: #5c6bc0; }
+
+.spinner-indigo-darken-1,
+.spinner-indigo-darken-1-only {
+  border-color: #3949ab; }
+
+.spinner-indigo-darken-2,
+.spinner-indigo-darken-2-only {
+  border-color: #303f9f; }
+
+.spinner-indigo-darken-3,
+.spinner-indigo-darken-3-only {
+  border-color: #283593; }
+
+.spinner-indigo-darken-4,
+.spinner-indigo-darken-4-only {
+  border-color: #1a237e; }
+
+.spinner-indigo-accent-1,
+.spinner-indigo-accent-1-only {
+  border-color: #8c9eff; }
+
+.spinner-indigo-accent-2,
+.spinner-indigo-accent-2-only {
+  border-color: #536dfe; }
+
+.spinner-indigo-accent-3,
+.spinner-indigo-accent-3-only {
+  border-color: #3d5afe; }
+
+.spinner-indigo-accent-4,
+.spinner-indigo-accent-4-only {
+  border-color: #304ffe; }
+
+.spinner-blue,
+.spinner-blue-only {
+  border-color: #2196F3; }
+
+.spinner-blue-lighten-5,
+.spinner-blue-lighten-5-only {
+  border-color: #E3F2FD; }
+
+.spinner-blue-lighten-4,
+.spinner-blue-lighten-4-only {
+  border-color: #BBDEFB; }
+
+.spinner-blue-lighten-3,
+.spinner-blue-lighten-3-only {
+  border-color: #90CAF9; }
+
+.spinner-blue-lighten-2,
+.spinner-blue-lighten-2-only {
+  border-color: #64B5F6; }
+
+.spinner-blue-lighten-1,
+.spinner-blue-lighten-1-only {
+  border-color: #42A5F5; }
+
+.spinner-blue-darken-1,
+.spinner-blue-darken-1-only {
+  border-color: #1E88E5; }
+
+.spinner-blue-darken-2,
+.spinner-blue-darken-2-only {
+  border-color: #1976D2; }
+
+.spinner-blue-darken-3,
+.spinner-blue-darken-3-only {
+  border-color: #1565C0; }
+
+.spinner-blue-darken-4,
+.spinner-blue-darken-4-only {
+  border-color: #0D47A1; }
+
+.spinner-blue-accent-1,
+.spinner-blue-accent-1-only {
+  border-color: #82B1FF; }
+
+.spinner-blue-accent-2,
+.spinner-blue-accent-2-only {
+  border-color: #448AFF; }
+
+.spinner-blue-accent-3,
+.spinner-blue-accent-3-only {
+  border-color: #2979FF; }
+
+.spinner-blue-accent-4,
+.spinner-blue-accent-4-only {
+  border-color: #2962FF; }
+
+.spinner-light-blue,
+.spinner-light-blue-only {
+  border-color: #03a9f4; }
+
+.spinner-light-blue-lighten-5,
+.spinner-light-blue-lighten-5-only {
+  border-color: #e1f5fe; }
+
+.spinner-light-blue-lighten-4,
+.spinner-light-blue-lighten-4-only {
+  border-color: #b3e5fc; }
+
+.spinner-light-blue-lighten-3,
+.spinner-light-blue-lighten-3-only {
+  border-color: #81d4fa; }
+
+.spinner-light-blue-lighten-2,
+.spinner-light-blue-lighten-2-only {
+  border-color: #4fc3f7; }
+
+.spinner-light-blue-lighten-1,
+.spinner-light-blue-lighten-1-only {
+  border-color: #29b6f6; }
+
+.spinner-light-blue-darken-1,
+.spinner-light-blue-darken-1-only {
+  border-color: #039be5; }
+
+.spinner-light-blue-darken-2,
+.spinner-light-blue-darken-2-only {
+  border-color: #0288d1; }
+
+.spinner-light-blue-darken-3,
+.spinner-light-blue-darken-3-only {
+  border-color: #0277bd; }
+
+.spinner-light-blue-darken-4,
+.spinner-light-blue-darken-4-only {
+  border-color: #01579b; }
+
+.spinner-light-blue-accent-1,
+.spinner-light-blue-accent-1-only {
+  border-color: #80d8ff; }
+
+.spinner-light-blue-accent-2,
+.spinner-light-blue-accent-2-only {
+  border-color: #40c4ff; }
+
+.spinner-light-blue-accent-3,
+.spinner-light-blue-accent-3-only {
+  border-color: #00b0ff; }
+
+.spinner-light-blue-accent-4,
+.spinner-light-blue-accent-4-only {
+  border-color: #0091ea; }
+
+.spinner-cyan,
+.spinner-cyan-only {
+  border-color: #00bcd4; }
+
+.spinner-cyan-lighten-5,
+.spinner-cyan-lighten-5-only {
+  border-color: #e0f7fa; }
+
+.spinner-cyan-lighten-4,
+.spinner-cyan-lighten-4-only {
+  border-color: #b2ebf2; }
+
+.spinner-cyan-lighten-3,
+.spinner-cyan-lighten-3-only {
+  border-color: #80deea; }
+
+.spinner-cyan-lighten-2,
+.spinner-cyan-lighten-2-only {
+  border-color: #4dd0e1; }
+
+.spinner-cyan-lighten-1,
+.spinner-cyan-lighten-1-only {
+  border-color: #26c6da; }
+
+.spinner-cyan-darken-1,
+.spinner-cyan-darken-1-only {
+  border-color: #00acc1; }
+
+.spinner-cyan-darken-2,
+.spinner-cyan-darken-2-only {
+  border-color: #0097a7; }
+
+.spinner-cyan-darken-3,
+.spinner-cyan-darken-3-only {
+  border-color: #00838f; }
+
+.spinner-cyan-darken-4,
+.spinner-cyan-darken-4-only {
+  border-color: #006064; }
+
+.spinner-cyan-accent-1,
+.spinner-cyan-accent-1-only {
+  border-color: #84ffff; }
+
+.spinner-cyan-accent-2,
+.spinner-cyan-accent-2-only {
+  border-color: #18ffff; }
+
+.spinner-cyan-accent-3,
+.spinner-cyan-accent-3-only {
+  border-color: #00e5ff; }
+
+.spinner-cyan-accent-4,
+.spinner-cyan-accent-4-only {
+  border-color: #00b8d4; }
+
+.spinner-teal,
+.spinner-teal-only {
+  border-color: #009688; }
+
+.spinner-teal-lighten-5,
+.spinner-teal-lighten-5-only {
+  border-color: #e0f2f1; }
+
+.spinner-teal-lighten-4,
+.spinner-teal-lighten-4-only {
+  border-color: #b2dfdb; }
+
+.spinner-teal-lighten-3,
+.spinner-teal-lighten-3-only {
+  border-color: #80cbc4; }
+
+.spinner-teal-lighten-2,
+.spinner-teal-lighten-2-only {
+  border-color: #4db6ac; }
+
+.spinner-teal-lighten-1,
+.spinner-teal-lighten-1-only {
+  border-color: #26a69a; }
+
+.spinner-teal-darken-1,
+.spinner-teal-darken-1-only {
+  border-color: #00897b; }
+
+.spinner-teal-darken-2,
+.spinner-teal-darken-2-only {
+  border-color: #00796b; }
+
+.spinner-teal-darken-3,
+.spinner-teal-darken-3-only {
+  border-color: #00695c; }
+
+.spinner-teal-darken-4,
+.spinner-teal-darken-4-only {
+  border-color: #004d40; }
+
+.spinner-teal-accent-1,
+.spinner-teal-accent-1-only {
+  border-color: #a7ffeb; }
+
+.spinner-teal-accent-2,
+.spinner-teal-accent-2-only {
+  border-color: #64ffda; }
+
+.spinner-teal-accent-3,
+.spinner-teal-accent-3-only {
+  border-color: #1de9b6; }
+
+.spinner-teal-accent-4,
+.spinner-teal-accent-4-only {
+  border-color: #00bfa5; }
+
+.spinner-green,
+.spinner-green-only {
+  border-color: #4CAF50; }
+
+.spinner-green-lighten-5,
+.spinner-green-lighten-5-only {
+  border-color: #E8F5E9; }
+
+.spinner-green-lighten-4,
+.spinner-green-lighten-4-only {
+  border-color: #C8E6C9; }
+
+.spinner-green-lighten-3,
+.spinner-green-lighten-3-only {
+  border-color: #A5D6A7; }
+
+.spinner-green-lighten-2,
+.spinner-green-lighten-2-only {
+  border-color: #81C784; }
+
+.spinner-green-lighten-1,
+.spinner-green-lighten-1-only {
+  border-color: #66BB6A; }
+
+.spinner-green-darken-1,
+.spinner-green-darken-1-only {
+  border-color: #43A047; }
+
+.spinner-green-darken-2,
+.spinner-green-darken-2-only {
+  border-color: #388E3C; }
+
+.spinner-green-darken-3,
+.spinner-green-darken-3-only {
+  border-color: #2E7D32; }
+
+.spinner-green-darken-4,
+.spinner-green-darken-4-only {
+  border-color: #1B5E20; }
+
+.spinner-green-accent-1,
+.spinner-green-accent-1-only {
+  border-color: #B9F6CA; }
+
+.spinner-green-accent-2,
+.spinner-green-accent-2-only {
+  border-color: #69F0AE; }
+
+.spinner-green-accent-3,
+.spinner-green-accent-3-only {
+  border-color: #00E676; }
+
+.spinner-green-accent-4,
+.spinner-green-accent-4-only {
+  border-color: #00C853; }
+
+.spinner-light-green,
+.spinner-light-green-only {
+  border-color: #8bc34a; }
+
+.spinner-light-green-lighten-5,
+.spinner-light-green-lighten-5-only {
+  border-color: #f1f8e9; }
+
+.spinner-light-green-lighten-4,
+.spinner-light-green-lighten-4-only {
+  border-color: #dcedc8; }
+
+.spinner-light-green-lighten-3,
+.spinner-light-green-lighten-3-only {
+  border-color: #c5e1a5; }
+
+.spinner-light-green-lighten-2,
+.spinner-light-green-lighten-2-only {
+  border-color: #aed581; }
+
+.spinner-light-green-lighten-1,
+.spinner-light-green-lighten-1-only {
+  border-color: #9ccc65; }
+
+.spinner-light-green-darken-1,
+.spinner-light-green-darken-1-only {
+  border-color: #7cb342; }
+
+.spinner-light-green-darken-2,
+.spinner-light-green-darken-2-only {
+  border-color: #689f38; }
+
+.spinner-light-green-darken-3,
+.spinner-light-green-darken-3-only {
+  border-color: #558b2f; }
+
+.spinner-light-green-darken-4,
+.spinner-light-green-darken-4-only {
+  border-color: #33691e; }
+
+.spinner-light-green-accent-1,
+.spinner-light-green-accent-1-only {
+  border-color: #ccff90; }
+
+.spinner-light-green-accent-2,
+.spinner-light-green-accent-2-only {
+  border-color: #b2ff59; }
+
+.spinner-light-green-accent-3,
+.spinner-light-green-accent-3-only {
+  border-color: #76ff03; }
+
+.spinner-light-green-accent-4,
+.spinner-light-green-accent-4-only {
+  border-color: #64dd17; }
+
+.spinner-lime,
+.spinner-lime-only {
+  border-color: #cddc39; }
+
+.spinner-lime-lighten-5,
+.spinner-lime-lighten-5-only {
+  border-color: #f9fbe7; }
+
+.spinner-lime-lighten-4,
+.spinner-lime-lighten-4-only {
+  border-color: #f0f4c3; }
+
+.spinner-lime-lighten-3,
+.spinner-lime-lighten-3-only {
+  border-color: #e6ee9c; }
+
+.spinner-lime-lighten-2,
+.spinner-lime-lighten-2-only {
+  border-color: #dce775; }
+
+.spinner-lime-lighten-1,
+.spinner-lime-lighten-1-only {
+  border-color: #d4e157; }
+
+.spinner-lime-darken-1,
+.spinner-lime-darken-1-only {
+  border-color: #c0ca33; }
+
+.spinner-lime-darken-2,
+.spinner-lime-darken-2-only {
+  border-color: #afb42b; }
+
+.spinner-lime-darken-3,
+.spinner-lime-darken-3-only {
+  border-color: #9e9d24; }
+
+.spinner-lime-darken-4,
+.spinner-lime-darken-4-only {
+  border-color: #827717; }
+
+.spinner-lime-accent-1,
+.spinner-lime-accent-1-only {
+  border-color: #f4ff81; }
+
+.spinner-lime-accent-2,
+.spinner-lime-accent-2-only {
+  border-color: #eeff41; }
+
+.spinner-lime-accent-3,
+.spinner-lime-accent-3-only {
+  border-color: #c6ff00; }
+
+.spinner-lime-accent-4,
+.spinner-lime-accent-4-only {
+  border-color: #aeea00; }
+
+.spinner-yellow,
+.spinner-yellow-only {
+  border-color: #ffeb3b; }
+
+.spinner-yellow-lighten-5,
+.spinner-yellow-lighten-5-only {
+  border-color: #fffde7; }
+
+.spinner-yellow-lighten-4,
+.spinner-yellow-lighten-4-only {
+  border-color: #fff9c4; }
+
+.spinner-yellow-lighten-3,
+.spinner-yellow-lighten-3-only {
+  border-color: #fff59d; }
+
+.spinner-yellow-lighten-2,
+.spinner-yellow-lighten-2-only {
+  border-color: #fff176; }
+
+.spinner-yellow-lighten-1,
+.spinner-yellow-lighten-1-only {
+  border-color: #ffee58; }
+
+.spinner-yellow-darken-1,
+.spinner-yellow-darken-1-only {
+  border-color: #fdd835; }
+
+.spinner-yellow-darken-2,
+.spinner-yellow-darken-2-only {
+  border-color: #fbc02d; }
+
+.spinner-yellow-darken-3,
+.spinner-yellow-darken-3-only {
+  border-color: #f9a825; }
+
+.spinner-yellow-darken-4,
+.spinner-yellow-darken-4-only {
+  border-color: #f57f17; }
+
+.spinner-yellow-accent-1,
+.spinner-yellow-accent-1-only {
+  border-color: #ffff8d; }
+
+.spinner-yellow-accent-2,
+.spinner-yellow-accent-2-only {
+  border-color: #ffff00; }
+
+.spinner-yellow-accent-3,
+.spinner-yellow-accent-3-only {
+  border-color: #ffea00; }
+
+.spinner-yellow-accent-4,
+.spinner-yellow-accent-4-only {
+  border-color: #ffd600; }
+
+.spinner-amber,
+.spinner-amber-only {
+  border-color: #ffc107; }
+
+.spinner-amber-lighten-5,
+.spinner-amber-lighten-5-only {
+  border-color: #fff8e1; }
+
+.spinner-amber-lighten-4,
+.spinner-amber-lighten-4-only {
+  border-color: #ffecb3; }
+
+.spinner-amber-lighten-3,
+.spinner-amber-lighten-3-only {
+  border-color: #ffe082; }
+
+.spinner-amber-lighten-2,
+.spinner-amber-lighten-2-only {
+  border-color: #ffd54f; }
+
+.spinner-amber-lighten-1,
+.spinner-amber-lighten-1-only {
+  border-color: #ffca28; }
+
+.spinner-amber-darken-1,
+.spinner-amber-darken-1-only {
+  border-color: #ffb300; }
+
+.spinner-amber-darken-2,
+.spinner-amber-darken-2-only {
+  border-color: #ffa000; }
+
+.spinner-amber-darken-3,
+.spinner-amber-darken-3-only {
+  border-color: #ff8f00; }
+
+.spinner-amber-darken-4,
+.spinner-amber-darken-4-only {
+  border-color: #ff6f00; }
+
+.spinner-amber-accent-1,
+.spinner-amber-accent-1-only {
+  border-color: #ffe57f; }
+
+.spinner-amber-accent-2,
+.spinner-amber-accent-2-only {
+  border-color: #ffd740; }
+
+.spinner-amber-accent-3,
+.spinner-amber-accent-3-only {
+  border-color: #ffc400; }
+
+.spinner-amber-accent-4,
+.spinner-amber-accent-4-only {
+  border-color: #ffab00; }
+
+.spinner-orange,
+.spinner-orange-only {
+  border-color: #ff9800; }
+
+.spinner-orange-lighten-5,
+.spinner-orange-lighten-5-only {
+  border-color: #fff3e0; }
+
+.spinner-orange-lighten-4,
+.spinner-orange-lighten-4-only {
+  border-color: #ffe0b2; }
+
+.spinner-orange-lighten-3,
+.spinner-orange-lighten-3-only {
+  border-color: #ffcc80; }
+
+.spinner-orange-lighten-2,
+.spinner-orange-lighten-2-only {
+  border-color: #ffb74d; }
+
+.spinner-orange-lighten-1,
+.spinner-orange-lighten-1-only {
+  border-color: #ffa726; }
+
+.spinner-orange-darken-1,
+.spinner-orange-darken-1-only {
+  border-color: #fb8c00; }
+
+.spinner-orange-darken-2,
+.spinner-orange-darken-2-only {
+  border-color: #f57c00; }
+
+.spinner-orange-darken-3,
+.spinner-orange-darken-3-only {
+  border-color: #ef6c00; }
+
+.spinner-orange-darken-4,
+.spinner-orange-darken-4-only {
+  border-color: #e65100; }
+
+.spinner-orange-accent-1,
+.spinner-orange-accent-1-only {
+  border-color: #ffd180; }
+
+.spinner-orange-accent-2,
+.spinner-orange-accent-2-only {
+  border-color: #ffab40; }
+
+.spinner-orange-accent-3,
+.spinner-orange-accent-3-only {
+  border-color: #ff9100; }
+
+.spinner-orange-accent-4,
+.spinner-orange-accent-4-only {
+  border-color: #ff6d00; }
+
+.spinner-deep-orange,
+.spinner-deep-orange-only {
+  border-color: #ff5722; }
+
+.spinner-deep-orange-lighten-5,
+.spinner-deep-orange-lighten-5-only {
+  border-color: #fbe9e7; }
+
+.spinner-deep-orange-lighten-4,
+.spinner-deep-orange-lighten-4-only {
+  border-color: #ffccbc; }
+
+.spinner-deep-orange-lighten-3,
+.spinner-deep-orange-lighten-3-only {
+  border-color: #ffab91; }
+
+.spinner-deep-orange-lighten-2,
+.spinner-deep-orange-lighten-2-only {
+  border-color: #ff8a65; }
+
+.spinner-deep-orange-lighten-1,
+.spinner-deep-orange-lighten-1-only {
+  border-color: #ff7043; }
+
+.spinner-deep-orange-darken-1,
+.spinner-deep-orange-darken-1-only {
+  border-color: #f4511e; }
+
+.spinner-deep-orange-darken-2,
+.spinner-deep-orange-darken-2-only {
+  border-color: #e64a19; }
+
+.spinner-deep-orange-darken-3,
+.spinner-deep-orange-darken-3-only {
+  border-color: #d84315; }
+
+.spinner-deep-orange-darken-4,
+.spinner-deep-orange-darken-4-only {
+  border-color: #bf360c; }
+
+.spinner-deep-orange-accent-1,
+.spinner-deep-orange-accent-1-only {
+  border-color: #ff9e80; }
+
+.spinner-deep-orange-accent-2,
+.spinner-deep-orange-accent-2-only {
+  border-color: #ff6e40; }
+
+.spinner-deep-orange-accent-3,
+.spinner-deep-orange-accent-3-only {
+  border-color: #ff3d00; }
+
+.spinner-deep-orange-accent-4,
+.spinner-deep-orange-accent-4-only {
+  border-color: #dd2c00; }
+
+.spinner-brown,
+.spinner-brown-only {
+  border-color: #795548; }
+
+.spinner-brown-lighten-5,
+.spinner-brown-lighten-5-only {
+  border-color: #efebe9; }
+
+.spinner-brown-lighten-4,
+.spinner-brown-lighten-4-only {
+  border-color: #d7ccc8; }
+
+.spinner-brown-lighten-3,
+.spinner-brown-lighten-3-only {
+  border-color: #bcaaa4; }
+
+.spinner-brown-lighten-2,
+.spinner-brown-lighten-2-only {
+  border-color: #a1887f; }
+
+.spinner-brown-lighten-1,
+.spinner-brown-lighten-1-only {
+  border-color: #8d6e63; }
+
+.spinner-brown-darken-1,
+.spinner-brown-darken-1-only {
+  border-color: #6d4c41; }
+
+.spinner-brown-darken-2,
+.spinner-brown-darken-2-only {
+  border-color: #5d4037; }
+
+.spinner-brown-darken-3,
+.spinner-brown-darken-3-only {
+  border-color: #4e342e; }
+
+.spinner-brown-darken-4,
+.spinner-brown-darken-4-only {
+  border-color: #3e2723; }
+
+.spinner-blue-grey,
+.spinner-blue-grey-only {
+  border-color: #607d8b; }
+
+.spinner-blue-grey-lighten-5,
+.spinner-blue-grey-lighten-5-only {
+  border-color: #eceff1; }
+
+.spinner-blue-grey-lighten-4,
+.spinner-blue-grey-lighten-4-only {
+  border-color: #cfd8dc; }
+
+.spinner-blue-grey-lighten-3,
+.spinner-blue-grey-lighten-3-only {
+  border-color: #b0bec5; }
+
+.spinner-blue-grey-lighten-2,
+.spinner-blue-grey-lighten-2-only {
+  border-color: #90a4ae; }
+
+.spinner-blue-grey-lighten-1,
+.spinner-blue-grey-lighten-1-only {
+  border-color: #78909c; }
+
+.spinner-blue-grey-darken-1,
+.spinner-blue-grey-darken-1-only {
+  border-color: #546e7a; }
+
+.spinner-blue-grey-darken-2,
+.spinner-blue-grey-darken-2-only {
+  border-color: #455a64; }
+
+.spinner-blue-grey-darken-3,
+.spinner-blue-grey-darken-3-only {
+  border-color: #37474f; }
+
+.spinner-blue-grey-darken-4,
+.spinner-blue-grey-darken-4-only {
+  border-color: #263238; }
+
+.spinner-grey,
+.spinner-grey-only {
+  border-color: #9e9e9e; }
+
+.spinner-grey-lighten-5,
+.spinner-grey-lighten-5-only {
+  border-color: #fafafa; }
+
+.spinner-grey-lighten-4,
+.spinner-grey-lighten-4-only {
+  border-color: #f5f5f5; }
+
+.spinner-grey-lighten-3,
+.spinner-grey-lighten-3-only {
+  border-color: #eeeeee; }
+
+.spinner-grey-lighten-2,
+.spinner-grey-lighten-2-only {
+  border-color: #e0e0e0; }
+
+.spinner-grey-lighten-1,
+.spinner-grey-lighten-1-only {
+  border-color: #bdbdbd; }
+
+.spinner-grey-darken-1,
+.spinner-grey-darken-1-only {
+  border-color: #757575; }
+
+.spinner-grey-darken-2,
+.spinner-grey-darken-2-only {
+  border-color: #616161; }
+
+.spinner-grey-darken-3,
+.spinner-grey-darken-3-only {
+  border-color: #424242; }
+
+.spinner-grey-darken-4,
+.spinner-grey-darken-4-only {
+  border-color: #212121; }
+
+.spinner-shades-black,
+.spinner-shades-black-only {
+  border-color: #000000; }
+
+.spinner-shades-white,
+.spinner-shades-white-only {
+  border-color: #FFFFFF; }
+
+.spinner-shades-transparent,
+.spinner-shades-transparent-only {
+  border-color: transparent; }
+
 /**
  * IMPORTANT NOTE ABOUT CSS ANIMATION PROPERTIES (keanulee):
  *
@@ -5556,16 +6628,6 @@ input[type=range]:focus::-ms-fill-upper {
   overflow-y: auto;
   -webkit-overflow-scrolling: touch; }
 
-/*!
- * Default mobile-first, responsive styling for pickadate.js
- * Demo: http://amsul.github.io/pickadate.js
- */
-/**
- * Note: the root picker element should *NOT* be styled more than what's here.
- */
-/**
- * Make the holder and frame fullscreen.
- */
 .picker__holder,
 .picker__frame {
   bottom: 0;
@@ -6152,4 +7214,4 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .picker--time .picker__box {
     margin-bottom: 5em; } }
 
-/*# sourceMappingURL=00-app-theme.css.map */
+/*# sourceMappingURL=00-draweb-theme.css.map */

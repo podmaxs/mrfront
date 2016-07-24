@@ -5,7 +5,7 @@ module.exports = function (grunt) {
     // Watch task config
     watch: {
       sass: {
-        files: ["master/scss/**/*.scss","master/scss/*.scss"],
+        files: ["master/scss/**/*.scss","master/scss/*.scss","master/scss/**/**/*.scss"],
         tasks: ['sass']
       },
       cssmin: {
@@ -36,8 +36,8 @@ module.exports = function (grunt) {
             files: {
                 // fichero destino  // fichero .scss
                 "master/css/app/01-app-h.css" : ["master/scss/app/*.scss"],
-                "master/css/app/00-app-theme.css" : ["master/scss/theme/*.scss"],
-                "master/css/draweb/app-h.css" : ["master/scss/draweb/*.scss"],
+                "master/css/draweb/00-draweb-theme.css" : ["master/scss/theme/*.scss"],
+                "master/css/draweb/01-draweb-components.css" : ["master/scss/draweb/*.scss"],
             }
         }
     },

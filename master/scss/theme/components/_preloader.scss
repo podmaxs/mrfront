@@ -90,6 +90,35 @@
   border-color: #fff;
 }
 
+@each $color, $color_value in $shades {
+.spinner-#{$color},
+.spinner-#{$color}-only {
+  border-color: $color_value;
+}
+}
+// Color Classes
+
+@each $color_name, $color in $colors {
+  @each $color_type, $color_value in $color {
+    @if $color_type == "base" {
+
+      .spinner-#{$color_name},
+      .spinner-#{$color_name}-only {
+        border-color: $color_value;
+      }
+
+    }
+    @else {
+
+      .spinner-#{$color_name}-#{$color_type},
+      .spinner-#{$color_name}-#{$color_type}-only {
+      border-color: $color_value;
+      }
+
+    }
+  }
+}
+
 
 /**
  * IMPORTANT NOTE ABOUT CSS ANIMATION PROPERTIES (keanulee):
