@@ -16,6 +16,10 @@
 		overflow-y:auto;
 	}
 
+	scroll-view[no-padding]{
+		padding:0px;
+	}
+
 	preload,preload>*{
 		overflow:hidden;
 		padding:0px;
