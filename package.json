@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "mrFront",
+=======
+  "name": "draweb",
+>>>>>>> 012a85d3762fe7e11e101b87d4d1873590a377ec
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
